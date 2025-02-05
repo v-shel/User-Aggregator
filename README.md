@@ -20,7 +20,7 @@ The application supports dynamic database connection configuration via **YAML** 
 
 1. **Clone the repository**:
    ```sh
-   git clone <repo-url>
+   git clone https://github.com/v-shel/User-Aggregator.git
    cd user-aggregator
    ```
 
