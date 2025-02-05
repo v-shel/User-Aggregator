@@ -9,5 +9,4 @@ public class ComparusMultiDbReadApplication {
     public static void main(String[] args) {
         SpringApplication.run(ComparusMultiDbReadApplication.class, args);
     }
-
 }

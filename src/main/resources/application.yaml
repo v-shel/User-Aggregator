@@ -1,0 +1,14 @@
+server:
+  port: 8899
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+spring:
+  application:
+    name: ComparusMultiDbReadApplication
+  profiles:
+    active: dev
