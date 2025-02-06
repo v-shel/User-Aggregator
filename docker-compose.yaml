@@ -8,7 +8,7 @@ services:
     ports:
       - '25432:5432'
     volumes:
-      - ./init-db1.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./src/test/resources/db/scripts/init-db1.sql:/docker-entrypoint-initdb.d/init.sql
 
   postgres2:
     image: 'postgres:latest'
@@ -19,7 +19,7 @@ services:
     ports:
       - '25433:5432'
     volumes:
-      - ./init-db2.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./src/test/resources/db/scripts/init-db2.sql:/docker-entrypoint-initdb.d/init.sql
 
   app:
     build: .
