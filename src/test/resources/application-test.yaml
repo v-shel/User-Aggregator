@@ -13,7 +13,7 @@ data-sources:
 
   - name: database2
     strategy: postgres
-    url: jdbc:postgresql://localhost:55432/test_db2
+    url: jdbc:postgresql://localhost:55433/test_db2
     user: user2
     password: pass2
     table: user_table
